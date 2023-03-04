@@ -46,7 +46,7 @@ const CreatePost = () => {
           />
 
           <FormField
-            labelName="Prompt"
+            labelname="Prompt"
             type="text"
             placeholder='A man wanders through the rainy streets of Tokyo, with bright neon signs, 50mm'
             value={form.prompt}
