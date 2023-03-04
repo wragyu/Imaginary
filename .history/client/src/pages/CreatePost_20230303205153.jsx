@@ -20,14 +20,6 @@ const CreatePost = () => {
 
   }
 
-  const handleChange = (e) => {
-
-  }
-
-  const handleSurpriseMe = () => {
-    
-  }
-
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
@@ -36,25 +28,7 @@ const CreatePost = () => {
       </div>
 
       <form className='mt-16 max-w-3xl' onSubmit={handleSubmit}>
-        <div className='flex flex-col gap-5'>
-          <FormField
-            Labelname="Your name"
-            type="text"
-            placeholder="John Doe"
-            value={form.name}
-            handleChange={handleChange}
-          />
-
-          <FormField
-            Labelname="Prompt"
-            type="text"
-            placeholder='A man wanders through the rainy streets of Tokyo, with bright neon signs, 50mm'
-            value={form.prompt}
-            handleChange={handleChange}
-            isSurpriseMe
-            handleSurpriseMe={handleSurpriseMe}
-          />
-        </div>
+        <div className='flex flex'></div>
       </form>
 
     </section>

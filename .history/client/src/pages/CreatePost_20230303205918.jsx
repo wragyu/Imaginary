@@ -24,10 +24,6 @@ const CreatePost = () => {
 
   }
 
-  const handleSurpriseMe = () => {
-    
-  }
-
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
@@ -52,7 +48,7 @@ const CreatePost = () => {
             value={form.prompt}
             handleChange={handleChange}
             isSurpriseMe
-            handleSurpriseMe={handleSurpriseMe}
+            handleSurpriseMe={}
           />
         </div>
       </form>

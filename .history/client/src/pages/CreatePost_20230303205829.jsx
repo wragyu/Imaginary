@@ -24,10 +24,6 @@ const CreatePost = () => {
 
   }
 
-  const handleSurpriseMe = () => {
-    
-  }
-
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
@@ -51,8 +47,6 @@ const CreatePost = () => {
             placeholder='A man wanders through the rainy streets of Tokyo, with bright neon signs, 50mm'
             value={form.prompt}
             handleChange={handleChange}
-            isSurpriseMe
-            handleSurpriseMe={handleSurpriseMe}
           />
         </div>
       </form>

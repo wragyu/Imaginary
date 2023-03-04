@@ -24,9 +24,7 @@ const CreatePost = () => {
 
   }
 
-  const handleSurpriseMe = () => {
-    
-  }
+  const handleSurpriseMe = 9
 
   return (
     <section className='max-w-7xl mx-auto'>

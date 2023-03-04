@@ -20,14 +20,6 @@ const CreatePost = () => {
 
   }
 
-  const handleChange = (e) => {
-
-  }
-
-  const handleSurpriseMe = () => {
-    
-  }
-
   return (
     <section className='max-w-7xl mx-auto'>
       <div>
@@ -42,17 +34,6 @@ const CreatePost = () => {
             type="text"
             placeholder="John Doe"
             value={form.name}
-            handleChange={handleChange}
-          />
-
-          <FormField
-            Labelname="Prompt"
-            type="text"
-            placeholder='A man wanders through the rainy streets of Tokyo, with bright neon signs, 50mm'
-            value={form.prompt}
-            handleChange={handleChange}
-            isSurpriseMe
-            handleSurpriseMe={handleSurpriseMe}
           />
         </div>
       </form>

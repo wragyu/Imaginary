@@ -5,7 +5,7 @@ export function getRandomPrompt(prompt){
 
   const randomPrompt = surpriseMePrompts[randomIndex];
 
-  // checks if the prompt is the same
+  /
   if(randomPrompt === prompt){
     return getRandomPrompt(prompt)
   }
