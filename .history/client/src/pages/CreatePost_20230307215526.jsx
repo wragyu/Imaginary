@@ -8,9 +8,9 @@ import { FormField, Loader } from "../components";
 const CreatePost = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({
-    name: '',
-    prompt: '',
-    photo: '',
+    name: "",
+    prompt: "",
+    photo: "",
   });
 
   const [generatingImg, setGeneratingImg] = useState(false);
@@ -103,7 +103,6 @@ const CreatePost = () => {
             {loading ? "Sharing..." : "Share with the community"}
           </button>
         </div>
-
       </form>
     </section>
   );
